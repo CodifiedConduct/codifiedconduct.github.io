@@ -11,9 +11,9 @@
       <ul>
         <li v-for="(item, itemIndex) in items" :key="'item' + itemIndex">
           <a :href="item.url">{{ item.title }}</a>
-          <template v-if="item.description">
+          <span v-if="item.description">
             - {{ item.description }}
-          </template>
+          </span>
         </li>
       </ul>
 

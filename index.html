@@ -11,6 +11,9 @@
       <ul>
         <li v-for="(item, itemIndex) in items" :key="'item' + itemIndex">
           <a :href="item.url">{{ item.title }}</a>
+          <template v-if="item.description">
+            - {{ item.description }}
+          </template>
         </li>
       </ul>
 
@@ -29,19 +32,28 @@
           items: [
             {
               title: '"No Ideologies"',
-              url: 'https://github.com/CodifiedConduct/coc-no-ideologies'
+              url: 'https://github.com/CodifiedConduct/coc-no-ideologies',
+              description: ''
             },
             {
               title: 'Django',
-              url: 'https://www.djangoproject.com/conduct'
+              url: 'https://www.djangoproject.com/conduct',
+              description: ''
             },
             {
               title: 'Citizen',
-              url: 'http://citizencodeofconduct.org'
+              url: 'http://citizencodeofconduct.org',
+              description: ''
             },
             {
               title: 'Contributor Covenant',
-              url: 'https://www.contributor-covenant.org'
+              url: 'https://www.contributor-covenant.org',
+              description: ''
+            },
+            {
+              title: 'SQL Lite',
+              url: 'https://www.sqlite.org/codeofconduct.html',
+              description: 'This CoC is in accordance with the "instruments of good works" from chapter 4 of The Rule of St. Benedict. This document is based on a Christian doctrine and includes rules such as "love the Lord God with your whole heart", "Deny oneself in order to follow Christ", and "Fulfill God\'s commandments daily in your deeds". It also contains more pertinent rules such as "Do not swear", "Do not give way to anger", "Be a help in times of trouble", and "Do not return evil for evil".'
             }
           ]
         }

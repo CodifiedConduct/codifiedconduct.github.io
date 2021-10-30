@@ -1,3 +1,19 @@
 * {
     font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    margin-left: 5px;
+}
+
+body, a {
+    font-size: 18px;
+    text-decoration: none;
+}
+
+body, p {
+    font-size: 17px;
+}
+
+.logo {
+    border-radius: 10px;
+    border-style: inset;
+    background: #F5F5E9;
 }

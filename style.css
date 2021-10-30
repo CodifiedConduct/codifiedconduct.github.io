@@ -3,7 +3,7 @@
     margin-left: 5px;
 }
 
-a, #app {
+body, a {
     font-size: 18px;
     text-decoration: none;
 }

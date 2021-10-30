@@ -3,12 +3,12 @@
     margin-left: 5px;
 }
 
-a, #app {
+body, a {
     font-size: 18px;
     text-decoration: none;
 }
 
-p, #app {
+body, p {
     font-size: 17px;
 }
 

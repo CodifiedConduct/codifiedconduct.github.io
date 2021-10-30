@@ -15,4 +15,5 @@ body, p {
 .logo {
     border-radius: 10px;
     border-style: inset;
+    background: #F5F5E9;
 }

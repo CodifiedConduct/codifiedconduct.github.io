@@ -12,7 +12,7 @@ p, #app {
     font-size: 17px;
 }
 
-#logo {
+.logo {
     border-radius: 10px;
     border-style: inset;
 }

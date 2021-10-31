@@ -26,9 +26,9 @@ body, p {
     justify-content: center;
     background-color: rgb(207, 255, 197);
     border-radius: 2.5%;
-  }
-  
-  .flex-container > li {
+}
+
+.flex-container > li {
     background-color: #f1f1f1;
     margin: 10px;
     padding: 20px;
@@ -36,8 +36,8 @@ body, p {
     border-radius: 5%;
     border-style: double;
     list-style: none;
-  }
+}
 
-  h1 {
-      text-align: center;
-  }
+h1 {
+    text-align: center;
+}

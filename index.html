@@ -5,7 +5,7 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique&display=swap"" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique&display=swap" rel="stylesheet"> 
     <script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
   </head>
   <body>
@@ -19,7 +19,7 @@
         <circle cx="113" cy="302" r="103" stroke="#000" stroke-width="8" fill="#9AD173"></circle>
       </svg>
       <h1>Codified Conduct</h1>
-      <ul>
+      <ul class="flex-container">
         <li v-for="(item, itemIndex) in items" :key="'item' + itemIndex">
           <a :href="item.url">{{ item.title }}</a>
           <span v-if="item.description">

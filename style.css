@@ -16,4 +16,29 @@ body, p {
     border-radius: 10px;
     border-style: inset;
     background: #F5F5E9;
+    display: block;
+    margin: auto;
 }
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(207, 255, 197);
+    border-radius: 2.5%;
+  }
+  
+  .flex-container > li {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    justify-content: center;
+    border-radius: 5%;
+    border-style: double;
+    list-style: none;
+  }
+
+  h1 {
+      text-align: center;
+  }
+  
